@@ -1,14 +1,20 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - Entry point
+ * main - check the code for ALX School students.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-  int c;
-   c =  _islower('H');
-   _putchar(c + '0');
+    int r;
+
+    r = test_islower('H');
+    _putchar(r + '0');
+    r = test_islower('o');
+    _putchar(r + '0');
+    r = test_islower(108);
+    _putchar(r + '0');
+    _putchar('\n');
     return (0);
 }
