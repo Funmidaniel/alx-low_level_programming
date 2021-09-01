@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Return:0
+ * main - Prints "Holberton" followed by a new line.
+ *
+ * Return: Always 0.
  */
-
 int main(void)
 {
-char *c = "_putchar";
-int i;
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  _putchar('t');
+  _putchar('c');
+  _putchar('h');
+  _putchar('a');
+  _putchar('r');
+  _putchar('\n');
 
-for (i = 0; i < 10; i++)
-
-_putchar(c[i]);
-
-_putchar('\n');
-return (0);
+  return (0);
 }
